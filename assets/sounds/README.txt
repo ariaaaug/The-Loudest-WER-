@@ -1,0 +1,1 @@
+Six original WAV examples, one short synthesized call per built-in pet. These are playful sound-design effects generated for this prototype; they are not recordings of real animals. Select “Sample call · WAV 示例音效” in the studio, press the note button, or preview/download a sample in Pet Gallery.
