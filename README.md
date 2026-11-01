@@ -1,34 +1,49 @@
-# The Loudest WER! · A little room, a little band
+<p align="center">
+  <img src="assets/wer-christmas-ui/logo_sunset.png" alt="The Loudest WER! logo" width="300">
+</p>
 
-**团队项目说明 / Team project guide**
+<h1 align="center">The Loudest WER!</h1>
+<p align="center"><strong>A little room, a little band.</strong><br>像素宠物音乐工作室 · Desktop-first browser experience</p>
 
-The Loudest WER! is a desktop-first pixel-pet music playground. Meet the White Cat, Orange Cat, and Mystery Cat, create a pet from a photo, and arrange a song together. The website runs in a browser without a build step or account.
+<p align="center">
+  <a href="#website-introduction">Website / 网站</a> ·
+  <a href="#run-locally">Run locally / 本地运行</a> ·
+  <a href="#team-collaboration">Team / 团队协作</a> ·
+  <a href="#replaceable-assets">Assets / 替换素材</a>
+</p>
 
-The Loudest WER! 是一款以像素宠物和音乐创作为核心的桌面优先网页。你可以认识白猫、橘猫和神秘猫，上传照片创建宠物，并和宠物一起编曲。网站可直接在浏览器运行，无需构建项目或注册账号。
+<p align="center">
+  <img src="docs/images/operation-guide/home-annotated.jpg" alt="Annotated Home page showing navigation, the interactive pet room, and three quick actions">
+</p>
+<p align="center"><sub>Home preview · ① Page navigation　② Interactive room and pets　③ Quick actions</sub></p>
 
-## Get the project · 获取项目
+<a id="website-introduction"></a>
+## Website introduction · 网站介绍
 
-1. Open the [team repository](https://github.com/sd5913/The-Loudest-WER-). In the branch selector, choose **your own working branch** before editing. Each teammate should work on their own branch; do not assume everyone should use the same branch.
+The Loudest WER! is a desktop-first pixel-pet music playground. Meet the **White Cat**, **Orange Cat**, and **Mystery Cat**, create a pet from a photo, and arrange a song together. The prototype runs in a browser without a build step or account.
 
-   打开上方的团队仓库，修改前在分支选择器中切换到**自己的工作分支**。每位团队成员都应在自己的分支上工作，不要默认所有人共用同一个分支。
+The Loudest WER! 是一款桌面优先的像素宠物音乐网页。认识**白猫、橘猫和神秘猫**，上传照片创建宠物，再和宠物一起编曲。初版可直接在浏览器运行，无需构建项目或注册账号。
 
-2. For a quick preview, choose **Code → Download ZIP** and extract the complete folder. For ongoing code and asset changes, use VS Code's **Clone Git Repository** command so you can commit and sync changes to your branch.
+### Explore the website · 浏览网站
 
-   只想预览时，选择 **Code → Download ZIP** 并解压完整文件夹。需要持续修改代码或素材并同步到自己的分支时，请使用 VS Code 的 **Clone Git Repository（克隆 Git 仓库）**。
+| Page / 页面 | What you can do / 页面功能 |
+|---|---|
+| **Home · 首页** | Switch between **Sunset · 黄昏** and **Night · 夜晚**, click or drag the three cats, and use the quick links to open other pages. / 切换黄昏与夜晚，点击或拖动三只猫，并通过快捷入口进入其他页面。 |
+| **My Pets · 我的宠物** | Create a pixel-style pet preview from a photo, record or upload a short voice, and choose built-in pets. / 上传照片生成像素预览、录制或上传短声音，并选择内置宠物。 |
+| **Music Studio · 音乐工作室** | Choose pets and sounds, adjust **Volume, Pitch, Rhythm, Repeat**, use music templates, and play or pause a composition. / 选择宠物和叫声，调节音量、音高、节奏与重复，套用音乐模板并播放或暂停。 |
+| **My Collection · 我的收藏** | Reopen or remove compositions saved in this browser. / 打开或移除此浏览器中保存的合奏。 |
+| **Gallery · 角色与声音展示** | Browse the project's pet characters and example sounds. / 浏览项目角色和示例声音。 |
 
-3. In VS Code, open the Command Palette and choose **Git: Clone**, paste the [repository link](https://github.com/sd5913/The-Loudest-WER-.git), choose a local folder, then select your branch from the branch selector. Sign in to GitHub when VS Code asks. Git must be installed on the computer.
+Photo processing creates a pixelated visual preview; it is not AI cutout or background removal. Pet profiles and saved music stay in the current browser and do not sync between devices.
 
-   在 VS Code 打开命令面板，选择 **Git: Clone**，粘贴[仓库地址](https://github.com/sd5913/The-Loudest-WER-.git)，选择本地保存位置，再从分支选择器切换到自己的分支。VS Code 提示时登录 GitHub；电脑需要安装 Git。
+照片处理是像素化视觉预览，不是 AI 抠图或背景移除。宠物资料和音乐保存在当前浏览器，不会自动同步到其他设备。
 
-4. Edit and preview on your own branch. In VS Code **Source Control**, review the changes, Commit, and Push / Sync to your branch. On GitHub, open a Pull Request with `main` as the target branch; after review, merge it into `main`. The team can then get the update from `main`.
-
-   在自己的分支修改并预览。打开 VS Code 的 **Source Control（源代码管理）**检查变更、Commit，再 Push / Sync 到自己的分支。之后在 GitHub 创建目标分支为 `main` 的 Pull Request；检查通过后合并到 `main`，团队成员即可从 `main` 获取更新。
-
+<a id="run-locally"></a>
 ## Run locally · 本地运行
 
 Open the project root—the folder containing `index.html` and `assets/`—in VS Code. Choose **Terminal → New Terminal**, then run the command for your system:
 
-在 VS Code 打开项目根目录（里面应有 `index.html` 和 `assets/`），选择 **Terminal → New Terminal（新建终端）**，再按系统运行对应命令：
+在 VS Code 打开项目根目录（其中有 `index.html` 和 `assets/`），选择 **Terminal → New Terminal（新建终端）**，再运行对应系统的命令：
 
 **macOS**
 ```sh
@@ -40,60 +55,65 @@ python3 -m http.server 8000
 py -m http.server 8000
 ```
 
-Open [http://localhost:8000/](http://localhost:8000/) in the same computer's browser. Keep the terminal open while previewing; press **Ctrl + C** to stop the local server. If the terminal says port 8000 is already in use, run the same command with `8001` and open [http://localhost:8001/](http://localhost:8001/).
+Open [http://localhost:8000/](http://localhost:8000/) in the same computer's browser. Keep the terminal open while previewing; press **Ctrl + C** to stop the server. If port 8000 is busy, change `8000` to `8001` in the command and open [http://localhost:8001/](http://localhost:8001/).
 
-在同一台电脑的浏览器打开 [http://localhost:8000/](http://localhost:8000/)。预览时保持终端开启；按 **Ctrl + C** 停止本地服务。如果终端提示 8000 端口已被占用，把命令中的 `8000` 改为 `8001`，然后打开 [http://localhost:8001/](http://localhost:8001/)。
+在同一台电脑的浏览器打开 [http://localhost:8000/](http://localhost:8000/)。预览时保持终端开启；按 **Ctrl + C** 停止服务。如果 8000 端口被占用，将命令中的 `8000` 改为 `8001`，并打开 [http://localhost:8001/](http://localhost:8001/)。
 
-If the local link still does not open, copy the server's last few terminal lines and ask an AI assistant: **“请根据下面 VS Code 终端的实际输出，告诉我浏览器应该打开哪个 localhost 地址。如果服务没有启动，请给我适用于我当前系统的下一步操作；不要猜端口。”** Do not send passwords, tokens, or private files.
+Click **Play together** once the first time you play audio to enable browser sound. No separate asset pack is needed: clone or download the complete project and keep the `assets/` folder in place.
 
-如果本地网址仍打不开，可以复制 VS Code 终端最后几行，问 AI：**“请根据下面 VS Code 终端的实际输出，告诉我浏览器应该打开哪个 localhost 地址。如果服务没有启动，请给我适用于我当前系统的下一步操作；不要猜端口。”** 不要发送密码、令牌或私人文件。
+第一次播放时点击一次 **Play together（一起演奏）**以启用浏览器音频。素材不需要单独安装：克隆或下载完整项目并保留 `assets/` 文件夹即可。
 
-The first time you play audio, click **Play together** once to enable browser audio. Assets do not need a separate installation; download or clone the entire project and keep `assets/` in place.
+<a id="team-collaboration"></a>
+## Team collaboration · 团队协作
 
-第一次播放声音时，点击一次 **Play together（一起演奏）**以启用浏览器音频。素材不需要单独安装；请下载或克隆完整项目，并保留 `assets/` 文件夹。
+Open the [team repository](https://github.com/sd5913/The-Loudest-WER-). For ongoing work, clone it in VS Code and select **your own branch** before editing. A ZIP download is suitable for viewing, but not for syncing contributions.
 
-## Pages · 网站页面
+打开[团队仓库](https://github.com/sd5913/The-Loudest-WER-)。需要持续协作时，在 VS Code 克隆仓库并先切换到**自己的分支**再修改。下载 ZIP 适合查看项目，不适合持续同步协作内容。
 
-| Page 页面 | English | 中文 |
-|---|---|---|
-| `index.html` | Interactive home room, Sunset/Night themes, draggable cats, and quick links to other pages. | 互动首页，可切换黄昏/夜晚主题、拖动猫咪，并进入其他页面。 |
-| `pets.html` | Create a pet from a photo, record/upload a voice, preview the pixel effect, and adopt a pet. | 上传照片创建宠物、录制或上传声音、预览像素效果及领养宠物。 |
-| `studio.html` | Select pets and sounds; adjust Volume, Pitch, Rhythm, and Repeat; choose templates; play, pause, and save music. | 选择宠物和叫声，调节音量、音高、节奏与重复，选择模板并播放、暂停和保存音乐。 |
-| `collection.html` | Reopen or remove music saved in this browser. | 打开或移除此浏览器中保存的音乐。 |
-| `gallery.html` | Browse the project's pet characters and example sounds. | 浏览项目宠物角色和示例声音。 |
+<p align="center">
+  <img src="docs/images/operation-guide/team-workflow.png" alt="Team workflow: clone the repository, work on a personal branch, preview, push, open a Pull Request, and merge after review" width="680">
+</p>
 
+1. **Clone and branch · 克隆并切换分支:** In VS Code, choose **Git: Clone**, paste the [repository URL](https://github.com/sd5913/The-Loudest-WER-.git), choose a local folder, then switch to your own branch. Git must be installed; sign in when VS Code prompts you.
+2. **Edit and preview · 修改并预览:** Make a focused change and run the site locally using the steps above. Check the interaction and review the changed files in VS Code **Source Control**.
+3. **Commit and push · 提交并推送:** Commit your changes and Push / Sync to your own branch. Do not push directly to `main`.
+4. **Pull Request · 发起合并请求:** On GitHub, open a Pull Request targeting `main`. After review, merge it according to the repository's permissions; teammates can then update from `main`.
+
+在 VS Code 选择 **Git: Clone**，粘贴[仓库地址](https://github.com/sd5913/The-Loudest-WER-.git)，选好本地文件夹后切换到自己的分支。完成修改并本地预览后，在 **Source Control（源代码管理）**检查变更，Commit 并 Push / Sync 到自己的分支；不要直接推送到 `main`。最后在 GitHub 创建目标为 `main` 的 Pull Request，检查后按仓库权限合并。
+
+<a id="replaceable-assets"></a>
 ## Replaceable assets · 替换素材
 
-Keep the existing path and filename when replacing an asset. In VS Code, open the matching file in `assets/`, back up the original, replace it with the new file, and refresh the browser. To share the change, review and commit it in VS Code Source Control, Push it to your own branch, then open a Pull Request to `main` and merge after review.
+Replace files in place where possible: keep the filename, folder, format, image ratio, and transparent canvas so the page can still find the asset and overlays remain aligned. Back up the original, refresh the browser after replacement, then commit and push the change on your own branch.
 
-替换素材时尽量沿用原有路径和文件名。在 VS Code 打开 `assets/` 中对应文件，先备份，再替换并刷新浏览器查看。要让团队看到修改，请在 VS Code 的 Source Control（源代码管理）检查并 Commit，再 Push 到自己的分支，创建目标为 `main` 的 Pull Request，检查通过后合并。
+尽量在原位置替换素材，并保留文件名、目录、格式、图片比例和透明画布，避免页面找不到文件或图层错位。先备份原文件，替换后刷新浏览器检查，再在自己的分支提交并推送。
 
-| Content 内容 | Location 路径 | Notes 注意事项 |
+| Asset / 素材 | Location / 位置 | Note / 注意事项 |
 |---|---|---|
-| Home backgrounds / 首页背景 | `assets/backgrounds/home-sunset.png`, `home-night.png` | Keep the original ratio. The computer is part of each background. / 保持原图比例；电脑已包含在背景图中。 |
-| Home cats / 首页猫咪 | Matching transparent PNGs in `assets/pets/`; night files include `-night`. / `assets/pets/` 中对应的透明 PNG，夜晚版本文件名带 `-night`。 | Keep canvas and subject placement similar to avoid misalignment. / 保持画布和主体位置相近，避免错位。 |
-| Studio background / 工作室背景 | `assets/backgrounds/seaside-park.png` | Keep the filename and folder. / 保留原文件名和目录。 |
-| Example sounds / 示例声音 | WAV files in `assets/sounds/` | Keep WAV format and filename. / 保持 WAV 格式和文件名。 |
-| Home logos and buttons / 首页 Logo 与按钮 | `assets/wer-christmas-ui/` | Keep the transparent edges; button canvases are 300 × 100 px. / 保留透明边缘；按钮画布为 300 × 100 像素。 |
+| Home backgrounds / 首页背景 | `assets/backgrounds/home-sunset.png`, `home-night.png` | Keep the original ratio; the computer is part of the background. / 保持原图比例；电脑已包含在背景图中。 |
+| Home cats / 首页猫咪 | Matching transparent PNGs in `assets/pets/`; Night files include `-night`. / `assets/pets/` 对应透明 PNG；夜晚版本文件名带 `-night`。 | Keep canvas and subject placement similar. / 保持画布和主体位置相近。 |
+| Stage background / 工作室背景 | `assets/backgrounds/seaside-park.png` | Keep the filename and folder. / 保留文件名和目录。 |
+| Example sounds / 示例声音 | WAV files in `assets/sounds/` | Keep WAV format and filenames. / 保持 WAV 格式和文件名。 |
+| Home logo and buttons / 首页 Logo 与按钮 | `assets/wer-christmas-ui/` | Keep transparent edges; button canvas is 300 × 100 px. / 保留透明边缘；按钮画布为 300 × 100 像素。 |
 
-## Main code · 主要代码
+## Code map · 代码位置
 
-| Files 文件 | Purpose 用途 |
+| Files / 文件 | Used for / 对应功能 |
 |---|---|
-| `index.html`, `home.js`, `experience.css` | Home layout and interactions / 首页布局与互动 |
-| `pets.html`, `pets.js`, `pet-art.js`, `store.js` | Pet creation, voice input, and adoption / 宠物创建、声音输入与领养 |
+| `index.html`, `home.js`, `experience.css` | Home page and interactions / 首页与互动 |
+| `pets.html`, `pets.js`, `pet-art.js`, `store.js` | Pet creation, voice input, adoption / 创建宠物、声音输入与领养 |
 | `studio.html`, `app.js` | Music editor and playback / 音乐编辑与播放 |
 | `collection.html`, `collection.js`, `store.js` | Saved music / 已保存音乐 |
-| `theme.js`, `style.css`, `pixel-ui.css`, `experience.css` | Shared themes and visual styles / 全站主题与视觉样式 |
+| `theme.js`, `style.css`, `pixel-ui.css` | Shared themes and visual system / 全站主题与视觉样式 |
+
+## Guides · 详细说明
+
+- [Website Function Guide · 网站功能说明 (Word)](docs/网站功能说明.docx) — page controls and feature walkthrough / 页面控件与功能说明
+- [Team Collaboration and Asset Guide · 团队协作与素材替换说明 (Word)](docs/团队协作与素材替换说明.docx) — GitHub, VS Code, local preview, and asset replacement / GitHub、VS Code、本地预览和素材替换
+- [Product specification · 产品功能文档](SPEC.md)
 
 ## Saving and sharing · 保存与分享
 
-Music, adopted pets, and custom pet details are stored in the current browser only; they do not automatically sync across devices. **Share** copies a local studio URL. It does not upload a song or create a public link. This prototype has no account system, cloud sync, or server-side storage.
+Music, adopted pets, and custom pet details are stored in this browser only. **Share** copies a local studio URL; it does not upload a song or create a public link. This prototype has no account system, cloud sync, or server-side storage.
 
-音乐、领养宠物和自定义宠物资料仅保存在当前浏览器，不会自动同步到其他设备。**Share（分享）**复制的是本地工作室网址，不会上传歌曲，也不会生成公开链接。本初版没有账号系统、云端同步或服务器存储。
-
-For page descriptions and control explanations, see [Website Function Guide / 网站功能说明（Word）](docs/网站功能说明.docx). For branches, local setup, collaboration flowcharts, and asset replacement steps, see [Team Collaboration and Asset Guide / 团队协作与素材替换说明（Word）](docs/团队协作与素材替换说明.docx).
-
-页面与控件说明见[网站功能说明（Word）](docs/网站功能说明.docx)；分支协作、本地运行、流程图和素材替换步骤见[团队协作与素材替换说明（Word）](docs/团队协作与素材替换说明.docx)。
-
-The current product direction is recorded in [`SPEC.md`](SPEC.md). / 当前产品方向见 [`SPEC.md`](SPEC.md)。
+音乐、领养宠物和自定义资料仅保存在当前浏览器。**Share（分享）**复制本地工作室网址，不会上传歌曲或生成公开链接。本初版没有账号系统、云端同步或服务器存储。
