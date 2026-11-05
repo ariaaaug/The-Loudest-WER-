@@ -1,8 +1,6 @@
-**每周进度**
+A pixel pet music playground
 
-WEEK1:
-
-**成员贡献**
+**每周进度 &成员贡献 &主要修改**
 
 WEEK1:
 
@@ -14,6 +12,12 @@ WEEK1:
 
 · Huang Yuting 负责记录每周讨论的决定和待解决问题
 
-**主要修改**
+WEEK2:
 
-WEEK1:
+· Huang Yuting 线上部署可用网站+增加声音界面
+
+· Youxiu 贴合我们风格的乐器资产（像素的架子鼓、大提琴，小提琴，唢呐，等等）-需要独立且透明的资产
+
+· Tao Xinyan 给2-5只宠物做成透明背景的动态在唱歌的gif
+
+· Wang Yuanyuan 生成2-5条简短的音效用于网站自带的声音
